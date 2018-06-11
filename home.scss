@@ -1,0 +1,52 @@
+page-home {
+
+  .tamanho {
+    width: 12%;
+  }
+
+  .botao {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .botao-laranja {
+    background: orange;
+    color: white;
+    box-shadow: 0 3px 0 #DF7401;
+  }
+
+  .botao-laranja:hover {
+    background: #FF8000;
+    color: white;
+    box-shadow: 0 3px 0 #DF7401;
+  }
+
+  .botao-laranja:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+  }
+
+  .botao-vermelho {
+    background: #A81B11;
+    color: white;
+    box-shadow: 0 3px 0 #741A14;
+  }
+
+  .botao-vermelho:hover {
+    background: #921E15;
+    color: white;
+    box-shadow: 0 3px 0 #741A14;
+  }
+
+  .botao-vermelho:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+  }
+
+}

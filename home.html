@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <div align="center">
+        Calculadora 1.
+      </div>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  Desenvolvida e editada em HTML, SCSS e TS por Lucas.
+
+  <form name="calculadora">
+    <div align="center">
+      <p>
+        <input type="text" name="visor" placeholder="0"/>
+      </p>
+      <input type="button" class="tamanho botao botao-laranja" value="1" (click)="calcular(1)"/>
+      <input type="button" class="tamanho botao botao-laranja" value="2" (click)="calcular(2)"/>
+      <input type="button" class="tamanho botao botao-laranja" value="3" (click)="calcular(3)"/>
+      <input type="button" class="tamanho botao botao-vermelho" value="+" (click)="calcular('+')"/>
+      <p>
+        <input type="button" class="tamanho botao botao-laranja" value="4" (click)="calcular(4)"/>
+        <input type="button" class="tamanho botao botao-laranja" value="5" (click)="calcular(5)"/>
+        <input type="button" class="tamanho botao botao-laranja" value="6" (click)="calcular(6)"/>
+        <input type="button" class="tamanho botao botao-vermelho" value="-" (click)="calcular('-')"/>
+      </p>
+      <p>
+        <input type="button" class="tamanho botao botao-laranja" value="7" (click)="calcular(7)"/>
+        <input type="button" class="tamanho botao botao-laranja" value="8" (click)="calcular(8)"/>
+        <input type="button" class="tamanho botao botao-laranja" value="9" (click)="calcular(9)"/>
+        <input type="button" class="tamanho botao botao-vermelho" value="*" (click)="calcular('*')"/>
+      </p>
+      <p>
+        <input type="button" class="tamanho botao botao-laranja" value="0" (click)="calcular(0)"/>
+        <input type="button" class="tamanho botao botao-vermelho" value="=" (click)="calculando()"/>
+        <input type="button" class="tamanho botao botao-vermelho" value="C" (click)="limpar()"/>
+        <input type="button" class="tamanho botao botao-vermelho" value="/" (click)="calcular('/')"/>
+      </p>
+    </div>
+  </form>
+
+</ion-content>
